@@ -1,13 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const sectionId = window.location.hash.substring(1);
-
 export interface InitialStateType {
   activeSec: string;
 }
 
 const initialState: InitialStateType = {
-  activeSec: sectionId || "about",
+  activeSec: "about",
 };
 
 const activeSecSlice = createSlice({

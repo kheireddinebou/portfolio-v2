@@ -20,16 +20,16 @@ const IsInViewPort = ({
   const ref = useRef<HTMLDivElement>(null);
   const dispatch = useDispatch();
 
-  const observer = new IntersectionObserver(
-    ([entry]) => {
-      if (entry.isIntersecting) {
-        dispatch(setActiveSec(entry.target.id));
-      }
-    },
-    { threshold }
-  );
-
   useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          dispatch(setActiveSec(entry.target.id));
+        }
+      },
+      { threshold }
+    );
+
     if (ref.current) {
       observer.observe(ref.current);
     }
@@ -37,7 +37,7 @@ const IsInViewPort = ({
     return () => {
       observer.disconnect();
     };
-  }, []);
+  }, [dispatch, threshold]);
 
   return (
     <section ref={ref} id={id} className={className}>

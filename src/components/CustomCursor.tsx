@@ -4,30 +4,30 @@ import { cn } from "@/lib/utils";
 import React, { useState, useEffect } from "react";
 
 const CustomCursor: React.FC = () => {
-    const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isClicked, setIsClicked] = useState(false);
   const [isMouseInViewport, setIsMouseInViewport] = useState(true);
 
   useEffect(() => {
+    const addEventListeners = () => {
+      document.addEventListener("mousemove", onMouseMove);
+      document.addEventListener("mousedown", onMouseDown);
+      document.addEventListener("mouseup", onMouseUp);
+      document.addEventListener("mouseenter", onMouseEnter);
+      document.addEventListener("mouseleave", onMouseLeave);
+    };
+
+    const removeEventListeners = () => {
+      document.removeEventListener("mousemove", onMouseMove);
+      document.removeEventListener("mousedown", onMouseDown);
+      document.removeEventListener("mouseup", onMouseUp);
+      document.removeEventListener("mouseenter", onMouseEnter);
+      document.removeEventListener("mouseleave", onMouseLeave);
+    };
+
     addEventListeners();
     return () => removeEventListeners();
   }, []);
-
-  const addEventListeners = () => {
-    document.addEventListener("mousemove", onMouseMove);
-    document.addEventListener("mousedown", onMouseDown);
-    document.addEventListener("mouseup", onMouseUp);
-    document.addEventListener("mouseenter", onMouseEnter);
-    document.addEventListener("mouseleave", onMouseLeave);
-  };
-
-  const removeEventListeners = () => {
-    document.removeEventListener("mousemove", onMouseMove);
-    document.removeEventListener("mousedown", onMouseDown);
-    document.removeEventListener("mouseup", onMouseUp);
-    document.removeEventListener("mouseenter", onMouseEnter);
-    document.removeEventListener("mouseleave", onMouseLeave);
-  };
 
   const onMouseMove = (e: MouseEvent) => {
     setPosition({ x: e.pageX, y: e.pageY });
@@ -52,10 +52,12 @@ const CustomCursor: React.FC = () => {
   };
 
   return (
-    <div className={cn("hidden lg:block pointer-events-none", {
-        "visible" : isMouseInViewport,
-        "invisible": !isMouseInViewport,
-    })}>
+    <div
+      className={cn("hidden lg:block pointer-events-none", {
+        visible: isMouseInViewport,
+        invisible: !isMouseInViewport,
+      })}
+    >
       <div
         style={{
           transform: `translate(${position.x}px, ${position.y}px)`,
