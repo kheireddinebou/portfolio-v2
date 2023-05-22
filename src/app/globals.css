@@ -2,26 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Inter", sans-serif;
+  font-feature-settings: "ss03", "cv02", "cv11";
+}
+
+.cursor {
+  width: 4px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 30;
+  transition-duration: 1.2s;
+  transition-timing-function: cubic-bezier(0.07, 1.18, 1, 1);
+}
+
+.cursor-follower {
+  position: absolute;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.07, 1.18, 1, 1);
+  z-index: 30;
 }
