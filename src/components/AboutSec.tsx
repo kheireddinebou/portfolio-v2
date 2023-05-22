@@ -11,7 +11,7 @@ const AboutSec = () => {
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
       <SectionTitle>about</SectionTitle>
-      <Paragraph className="mb-4">
+      <Paragraph className="mb-4 lg:mt-1">
         As a Front End Developer, I am proficient in the MERN Stack and
         specialize in creating visually appealing and user-friendly websites
         using React. I am also experienced in developing cross-platform mobile
