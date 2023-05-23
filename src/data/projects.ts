@@ -36,12 +36,12 @@ export const myProjects: Project[] = [
   },
 
   {
-    title: "kheiereddin-v1.onrender.com",
+    title: "kheiereddin.onrender.com",
     desc: "An old portfolio site.",
     tools: ["React", "Redux", "Sass"],
     img: "/images/portfolio/v1-portfolio.jpg",
     githubLink: "https://github.com/khiereddinbou/portfolio",
-    demoLink: "https://kheiereddin-v1.onrender.com/",
+    demoLink: "https://kheiereddin.onrender.com/",
   },
 
   {
