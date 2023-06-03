@@ -1,6 +1,6 @@
 import Providers from "@/components/Providers";
 import { cn } from "@/lib/utils";
-import "./globals.css";
+import "../styles/globals.css";
 import CustomCursor from "@/components/CustomCursor";
 
 export const metadata = {
@@ -23,7 +23,6 @@ export default function RootLayout({
       >
         <Providers>
           <CustomCursor />
-          {/* children */}
           {children}
         </Providers>
       </body>
