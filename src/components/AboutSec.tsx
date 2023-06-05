@@ -12,10 +12,9 @@ const AboutSec = () => {
     >
       <SectionTitle>about</SectionTitle>
       <Paragraph className="mb-4 lg:mt-1">
-        As a Front End Developer, I am proficient in the MERN Stack and
+        As a Front End Developer, I&apos;m proficient in the MERN Stack and
         specialize in creating visually appealing and user-friendly websites
-        using React. I am also experienced in developing cross-platform mobile
-        applications using React Native, ensuring that users have a seamless
+        using React, ensuring that users have a seamless
         experience across all devices.
       </Paragraph>
       <Paragraph className="mb-4">
