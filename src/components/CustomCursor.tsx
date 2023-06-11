@@ -67,8 +67,8 @@ const CustomCursor: React.FC = () => {
       <div
         style={{
           transform: `translate(${position.x}px, ${position.y}px)`,
-          width: isClicked ? "40px" : "15px", // Adjust the width to your desired size
-          height: isClicked ? "40px" : "15px", // Adjust the height to your desired size
+          width: isClicked ? "50px" : "25px", // Adjust the width to your desired size
+          height: isClicked ? "50px" : "25px", // Adjust the height to your desired size
         }}
         className="cursor-follower"
       ></div>
