@@ -1,7 +1,7 @@
 import { backEndSkills, frontEndSkills, otherSkills } from "@/data/skills";
-import IsInViewPort from "./ui/IsInViewPort";
-import SectionTitle from "./ui/SectionTitle";
-import SkillsCard from "./ui/SkillsCard";
+import IsInViewPort from "../ui/IsInViewPort";
+import SectionTitle from "../ui/SectionTitle";
+import SkillsCard from "../ui/SkillsCard";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const SkillsSec = () => {

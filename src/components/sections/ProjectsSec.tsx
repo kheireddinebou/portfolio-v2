@@ -1,7 +1,7 @@
 import { myProjects } from "@/data/projects";
-import IsInViewPort from "./ui/IsInViewPort";
-import ProjectItem from "./ui/ProjectItem";
-import SectionTitle from "./ui/SectionTitle";
+import IsInViewPort from "../ui/IsInViewPort";
+import ProjectItem from "../ui/ProjectItem";
+import SectionTitle from "../ui/SectionTitle";
 
 const ProjectsSec = () => {
   return (

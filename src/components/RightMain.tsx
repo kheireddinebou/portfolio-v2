@@ -1,7 +1,8 @@
-import AboutSec from "./AboutSec";
+import AboutSec from "./sections/AboutSec";
 import Footer from "./Footer";
-import ProjectsSec from "./ProjectsSec";
-import SkillsSec from "./SkillsSec";
+import ProjectsSec from "./sections/ProjectsSec";
+import SkillsSec from "./sections/SkillsSec";
+import SocialMediaLinks from "./SocialMediaLinks";
 
 const RightMain = () => {
   return (

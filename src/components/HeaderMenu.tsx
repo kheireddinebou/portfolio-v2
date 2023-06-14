@@ -1,9 +1,8 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { InitialStateType, setActiveSec } from "@/redux/activeSecSlice";
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { InitialStateType } from "@/redux/activeSecSlice";
+import { useSelector } from "react-redux";
 
 const menuItems = [
   {
@@ -25,15 +24,6 @@ const HeaderMenu = () => {
     //@ts-ignore
     (state: InitialStateType) => state.activeSec.activeSec
   );
-
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const sectionId = window.location.hash.substring(1);
-      dispatch(setActiveSec(sectionId || "about"));
-    }
-  }, [dispatch]);
 
   return (
     <nav className="hidden lg:block mb-[150px]">

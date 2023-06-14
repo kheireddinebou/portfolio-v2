@@ -1,7 +1,7 @@
 import React from "react";
-import IsInViewPort from "./ui/IsInViewPort";
-import Paragraph from "./ui/Paragraph";
-import SectionTitle from "./ui/SectionTitle";
+import IsInViewPort from "../ui/IsInViewPort";
+import Paragraph from "../ui/Paragraph";
+import SectionTitle from "../ui/SectionTitle";
 
 const AboutSec = () => {
   return (
@@ -14,8 +14,8 @@ const AboutSec = () => {
       <Paragraph className="mb-4 lg:mt-1">
         As a Front End Developer, I&apos;m proficient in the MERN Stack and
         specialize in creating visually appealing and user-friendly websites
-        using React, ensuring that users have a seamless
-        experience across all devices.
+        using React, ensuring that users have a seamless experience across all
+        devices.
       </Paragraph>
       <Paragraph className="mb-4">
         I prioritize meeting deadlines and value the importance of time. I

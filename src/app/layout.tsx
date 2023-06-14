@@ -2,6 +2,7 @@ import Providers from "@/components/Providers";
 import { cn } from "@/lib/utils";
 import "../styles/globals.css";
 import CustomCursor from "@/components/CustomCursor";
+import Loader from "@/components/Loader";
 
 export const metadata = {
   title: "Kheiereddin Boukhatem",
@@ -22,8 +23,10 @@ export default function RootLayout({
         )}
       >
         <Providers>
-          <CustomCursor />
-          {children}
+          <Loader>
+            <CustomCursor />
+            {children}
+          </Loader>
         </Providers>
       </body>
     </html>
