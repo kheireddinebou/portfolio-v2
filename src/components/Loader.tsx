@@ -14,7 +14,11 @@ const Loader = ({ children }: { children: ReactNode }) => {
     return () => clearTimeout(timer);
   }, []);
 
-  return isLoaded ? <LoaderAnimation /> : children;
+  if (isLoaded) {
+    return <LoaderAnimation />;
+  }
+
+  return <>{children}</>;
 };
 
 export default Loader;
