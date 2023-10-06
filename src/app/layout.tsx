@@ -17,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <meta name="google-site-verification" content="tQJQKmTXubj22u8IgbrpoiqgUgziWqFbAPZ5PJ8xVMs" />
       <body
         className={cn(
           "bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 overflow-x-hidden"
