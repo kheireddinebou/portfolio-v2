@@ -5,9 +5,9 @@ import CustomCursor from "@/components/CustomCursor";
 import Loader from "@/components/Loader";
 
 export const metadata = {
-  title: "Kheiereddin Boukhatem",
+  title: "kheireddine Boukhatem",
   description:
-    "Kheiereddin Boukhatem is a front end developer who builds accessible, inclusive products and digital experiences for the web.",
+    "kheireddine Boukhatem is a front end developer who builds accessible, inclusive products and digital experiences for the web.",
 };
 
 export default function RootLayout({
@@ -17,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <meta name="google-site-verification" content="tQJQKmTXubj22u8IgbrpoiqgUgziWqFbAPZ5PJ8xVMs" />
+      <meta
+        name="google-site-verification"
+        content="tQJQKmTXubj22u8IgbrpoiqgUgziWqFbAPZ5PJ8xVMs"
+      />
       <body
         className={cn(
           "bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 overflow-x-hidden"

@@ -6,25 +6,25 @@ const SocialMediaLinks = () => {
       <li className="text-[1.7rem] hover:text-slate-200">
         <a
           target="_blank"
-          href="https://www.linkedin.com/in/kheiereddin-boukhatem-801425240"
+          href="https://www.linkedin.com/in/kheireddine-boukhatem-801425240/"
         >
           <FaLinkedin />
         </a>
       </li>
       <li className="text-[1.7rem] hover:text-slate-200">
-        <a target="_blank" href="https://github.com/khiereddinbou">
+        <a target="_blank" href="https://github.com/kheireddinebou">
           <FaGithub />
         </a>
       </li>
       <li className="text-[1.7rem] hover:text-slate-200">
-        <a target="_blank" href="https://www.facebook.com/kheier.eddin">
+        <a target="_blank" href="https://www.facebook.com/kheireddine.boukhatem.fb">
           <FaFacebook />
         </a>
       </li>
       <li className="text-[1.7rem] hover:text-slate-200">
         <a
           target="_blank"
-          href="https://www.instagram.com/kheiereddinboukhatem/"
+          href="https://www.instagram.com/kheireddineboukhatem1/"
         >
           <FaInstagram />
         </a>
