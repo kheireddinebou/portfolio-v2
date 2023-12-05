@@ -8,7 +8,7 @@ const LeftHeader = () => {
     <header className="lg:sticky lg:top-0 lg:flex lg:h-screen lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div className="flex flex-col gap-3">
         <LargeHeading>
-          <a href="#">kheireddine Boukhatem</a>
+          <a href="#">Kheireddine Boukhatem</a>
         </LargeHeading>
         <LargeHeading size="sm">
           Front End Developer (React / Next.js)

@@ -5,9 +5,9 @@ import CustomCursor from "@/components/CustomCursor";
 import Loader from "@/components/Loader";
 
 export const metadata = {
-  title: "kheireddine Boukhatem",
+  title: "Kheireddine Boukhatem",
   description:
-    "kheireddine Boukhatem is a front end developer who builds accessible, inclusive products and digital experiences for the web.",
+    "Kheireddine Boukhatem is a front end developer who builds accessible, inclusive products and digital experiences for the web.",
 };
 
 export default function RootLayout({
