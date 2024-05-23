@@ -8,7 +8,7 @@ const SkillsSec = () => {
   return (
     <IsInViewPort
       className="flex flex-col gap-4 mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-      threshold={0.3}
+      threshold={1}
       id="skills"
     >
       <SectionTitle>skills</SectionTitle>
