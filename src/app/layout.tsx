@@ -8,6 +8,8 @@ export const metadata = {
   title: "Kheireddine Boukhatem",
   description:
     "Kheireddine Boukhatem is a front end developer who builds accessible, inclusive products and digital experiences for the web.",
+  keywords:
+    "Kheireddine Boukhatem, Front-end Developer, Front-end Engineer, UI/UX designer, Web Development, Web3, Software Engineering, Mobile Development, React",
 };
 
 export default function RootLayout({

@@ -14,6 +14,10 @@ const menuItems = [
     name: "skills",
   },
   {
+    id: "2",
+    name: "experience",
+  },
+  {
     id: "3",
     name: "projects",
   },
@@ -26,7 +30,7 @@ const HeaderMenu = () => {
   );
 
   return (
-    <nav className="hidden lg:block mb-[150px]">
+    <nav className="hidden lg:block">
       <ul className="lg:flex flex-col">
         {menuItems.map(item => (
           <li key={item.id}>

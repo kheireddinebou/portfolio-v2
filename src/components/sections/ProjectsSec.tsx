@@ -1,6 +1,6 @@
 import { myProjects } from "@/data/projects";
 import IsInViewPort from "../ui/IsInViewPort";
-import ProjectItem from "../ui/ProjectItem";
+import ProjectCard from "../ui/ProjectCard";
 import SectionTitle from "../ui/SectionTitle";
 
 const ProjectsSec = () => {
@@ -14,7 +14,7 @@ const ProjectsSec = () => {
 
       <ul className="flex flex-col gap-4">
         {myProjects.map((project, index) => (
-          <ProjectItem project={project} key={index} />
+          <ProjectCard project={project} key={index} />
         ))}
       </ul>
     </IsInViewPort>

@@ -1,50 +1,56 @@
 export const frontEndSkills: Skill[] = [
   {
-    name: "html",
+    name: "HTML",
     link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/v1653464815/kenjimmy.me/html_sx3o4c.png",
   },
   {
-    name: "css",
+    name: "CSS",
     link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/v1653464822/kenjimmy.me/css_llfioq.png",
   },
   {
-    name: "sass",
-    link: "https://sass-lang.com/",
-    img: "https://res.cloudinary.com/dwa1jtluu/image/upload/v1653464817/kenjimmy.me/sass_zt364q.png",
-  },
-  {
-    name: "javascript",
+    name: "JavaScript",
     link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/v1653464815/kenjimmy.me/javascript_wpr45g.png",
   },
   {
-    name: "typescript",
+    name: "TypeScript",
     link: "https://www.typescriptlang.org/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1653463796/kenjimmy.me/kisspng-angularjs-typescript-javascript-vue-js-5b342607e4f524.2219525715301442639378_jgy8fc.png",
   },
 
   {
-    name: "react",
+    name: "React",
     link: "https://reactjs.org/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/v1653559880/kenjimmy.me/kisspng-game-react-native-javascript-android-physics-5ac6d5f51879e8.6623465115229803411003_ugk9af.png",
   },
 
   {
-    name: "nextjs",
+    name: "Next.js",
     link: "https://nextjs.org/",
     img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1684525978/Next-js_oj4drq.png",
   },
 
   {
-    name: "redux",
-    link: "https://redux.js.org/",
-    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1684525464/pngegg_1_ruwseg.png",
+    name: "React Native",
+    link: "https://reactnative.dev/",
+    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1684526285/62a74de8223343fbc2207d01_t05ydo.png",
   },
 
   {
-    name: "tailwindcss",
+    name: "Redux",
+    link: "https://redux.js.org/",
+    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1684525464/pngegg_1_ruwseg.png",
+  },
+  {
+    name: "Material UI",
+    link: "https://mui.com/",
+    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1716063798/ulgfpkyyrvznw1dhos0c.png",
+  },
+
+  {
+    name: "Tailwind CSS",
     link: "https:/tailwindcss.com/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/v1653464819/kenjimmy.me/tailwindcss_xvxlaw.png",
   },
@@ -57,19 +63,19 @@ export const frontEndSkills: Skill[] = [
 
 export const backEndSkills: Skill[] = [
   {
-    name: "nodejs",
+    name: "Node.js",
     link: "https://nodejs.org/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/v1653464816/kenjimmy.me/nodejs_ymmm0h.png",
   },
 
   {
-    name: "express",
+    name: "Express",
     link: "https://expressjs.com/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1653464819/kenjimmy.me/express_r3isbu.png",
   },
 
   {
-    name: "mongodb",
+    name: "Mongodb",
     link: "https://www.mongodb.com/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1653464817/kenjimmy.me/mongodb_xz90eg.png",
   },
@@ -79,7 +85,7 @@ export const backEndSkills: Skill[] = [
     img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1684525491/pngegg_4_lyrdxg.png",
   },
   {
-    name: "mongoose",
+    name: "Mongoose",
     link: "https://mongoosejs.com/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1653464817/kenjimmy.me/mongoose_fmvf1q.png",
   },
@@ -91,7 +97,7 @@ export const backEndSkills: Skill[] = [
   },
 
   {
-    name: "prisma",
+    name: "Prisma",
     link: "https://www.prisma.io/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1653462594/kenjimmy.me/prismalogo_o3bfk3.png",
   },
@@ -114,17 +120,17 @@ export const otherSkills: Skill[] = [
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1653464815/kenjimmy.me/github_cctzbu.png",
   },
   {
-    name: "jest",
+    name: "Jest",
     link: "https://jestjs.io/",
     img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1684525491/pngegg_2_thgfta.png",
   },
   {
-    name: "postman",
+    name: "Postman",
     link: "https://www.postman.com/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1653464818/kenjimmy.me/postman_thyot5.png",
   },
   {
-    name: "figma",
+    name: "Figma",
     link: "https://www.figma.com/",
     img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1684525495/pngegg_3_rwj377.png",
   },

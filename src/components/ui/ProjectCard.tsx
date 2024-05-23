@@ -4,11 +4,11 @@ import Tool from "./Tool";
 import { FiArrowUpRight } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
 
-interface ProjectItemProps {
+interface ProjectCardProps {
   project: Project;
 }
 
-const ProjectItem: FC<ProjectItemProps> = ({ project }) => {
+const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
   return (
     <li className="mb-12">
       <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
@@ -63,4 +63,4 @@ const ProjectItem: FC<ProjectItemProps> = ({ project }) => {
   );
 };
 
-export default ProjectItem;
+export default ProjectCard;

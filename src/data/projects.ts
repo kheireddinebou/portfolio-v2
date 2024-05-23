@@ -17,14 +17,14 @@ export const myProjects: Project[] = [
     demoLink: "https://my-car-kheireddinebou.vercel.app/",
   },
 
-  {
-    title: "Creative Minds",
-    desc: "Responsive Social Media Website With Theme Customization, View and comment on posts, as well as add, edit, or remove your own posts.",
-    tools: ["Next.js", "Firebase", "Bootstrap"],
-    img: "/images/portfolio/creative-minds.jpg",
-    githubLink: "https://github.com/kheireddinebou/creative-minds",
-    demoLink: "https://creative-minds-khirou.vercel.app/",
-  },
+  // {
+  //   title: "Creative Minds",
+  //   desc: "Responsive Social Media Website With Theme Customization, View and comment on posts, as well as add, edit, or remove your own posts.",
+  //   tools: ["Next.js", "Firebase", "Bootstrap"],
+  //   img: "/images/portfolio/creative-minds.jpg",
+  //   githubLink: "https://github.com/kheireddinebou/creative-minds",
+  //   demoLink: "https://creative-minds-khirou.vercel.app/",
+  // },
 
   {
     title: "talkilly",
@@ -32,7 +32,8 @@ export const myProjects: Project[] = [
     tools: ["React Native", "Firebase"],
     img: "/images/portfolio/talkilly.jpg",
     githubLink: "https://github.com/kheireddinebou/talkilly",
-    demoLink: "https://expo.dev/@kheireddine/talkilly",
+    demoLink:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7013247066994835456/",
   },
 
   {
@@ -44,12 +45,12 @@ export const myProjects: Project[] = [
     demoLink: "https://kheireddine.onrender.com/",
   },
 
-  {
-    title: "Connectify",
-    desc: "A performant and reliable real-time messaging app that enables you to add friends, send friend requests via email, and engage in seamless conversations.",
-    tools: ["TypeScript", "Next.js", "Pusher", "Tailwind CSS"],
-    img: "/images/portfolio/connectify.jpg",
-    githubLink: "https://github.com/kheireddinebou/connectify",
-    demoLink: "https://connectify-v1.vercel.app/",
-  },
+  // {
+  //   title: "Connectify",
+  //   desc: "A performant and reliable real-time messaging app that enables you to add friends, send friend requests via email, and engage in seamless conversations.",
+  //   tools: ["TypeScript", "Next.js", "Pusher", "Tailwind CSS"],
+  //   img: "/images/portfolio/connectify.jpg",
+  //   githubLink: "https://github.com/kheireddinebou/connectify",
+  //   demoLink: "https://connectify-v1.vercel.app/",
+  // },
 ];

@@ -19,7 +19,7 @@ const SkillsCard = ({ title, skills }: SkillsCardProps) => {
             rel="noreferrer"
             target="_blank"
           >
-            <span className="transition-all ease-out duration-300 invisible group-hover:visible absolute top-[80%] right-[-20px] z-10 bg-gray-700 text-xs text-slate-200 p-1 border border-slate-200 pointer-events-none">
+            <span className="transition-all whitespace-nowrap ease-out duration-300 invisible group-hover:visible absolute top-[80%] right-[-20px] z-10 bg-gray-700 text-xs text-slate-200 p-1 border border-slate-200 pointer-events-none">
               {skill.name}
             </span>
             <Image

@@ -12,3 +12,13 @@ interface Project {
   demoLink: string;
   tools: string[];
 }
+
+interface Experience {
+  role: string;
+  company: string;
+  startDate: string;
+  endDate: string;
+  achievements: string[];
+  technologies: string[];
+  companyUrl: string;
+}

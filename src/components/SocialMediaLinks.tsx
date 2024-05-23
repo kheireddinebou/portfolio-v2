@@ -2,7 +2,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const SocialMediaLinks = () => {
   return (
-    <ul className="flex items-center gap-6 mt-6 lg:mt-0">
+    <ul className="flex items-center gap-6 mt-8">
       <li className="text-[1.7rem] hover:text-slate-200">
         <a
           target="_blank"

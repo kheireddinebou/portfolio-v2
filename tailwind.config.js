@@ -1,4 +1,3 @@
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -11,7 +10,13 @@ module.exports = {
       center: true,
       padding: "1.5rem",
     },
-    extend: {},
+    extend: {
+      screens: {
+        "h-sm": { raw: "(min-height: 600px)" },
+        "h-md": { raw: "(min-height: 800px)" },
+        "h-lg": { raw: "(min-height: 1000px)" },
+      },
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };

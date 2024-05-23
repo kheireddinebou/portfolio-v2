@@ -12,10 +12,10 @@ const AboutSec = () => {
     >
       <SectionTitle>about</SectionTitle>
       <Paragraph className="mb-4 lg:mt-1">
-        As a Front End Developer, I&apos;m proficient in the MERN Stack and
-        specialize in creating visually appealing and user-friendly websites
-        using React, ensuring that users have a seamless experience across all
-        devices.
+        As a Front End Developer passionate about design and User
+        Experience (UX), I specialize in building pixel-perfect, engaging, and
+        accessible digital experiences. I merge design with functionality to
+        create seamless user interactions.
       </Paragraph>
       <Paragraph className="mb-4">
         I prioritize meeting deadlines and value the importance of time. I

@@ -1,14 +1,15 @@
-import AboutSec from "./sections/AboutSec";
 import Footer from "./Footer";
+import AboutSec from "./sections/AboutSec";
+import ExperienceSec from "./sections/ExperienceSec";
 import ProjectsSec from "./sections/ProjectsSec";
 import SkillsSec from "./sections/SkillsSec";
-import SocialMediaLinks from "./SocialMediaLinks";
 
 const RightMain = () => {
   return (
-    <main className="pt-24 lg:w-1/2 lg:py-24">
+    <main className="pt-24 lg:w-1/2 lg:py-12 lg:h-md:py-24">
       <AboutSec />
       <SkillsSec />
+      <ExperienceSec />
       <ProjectsSec />
       <Footer />
     </main>

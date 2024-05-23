@@ -9,26 +9,17 @@ body {
   font-feature-settings: "ss03", "cv02", "cv11";
 }
 
-.cursor {
-  width: 4px;
-  height: 4px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  position: absolute;
-  z-index: 30;
-  transition-duration: 1.2s;
-  transition-timing-function: cubic-bezier(0.07, 1.18, 1, 1);
+@layer components {
+  .mouse-effect {
+    @apply fixed inset-0 pointer-events-none;
+    background-image: radial-gradient(
+      circle at var(--mouse-x) var(--mouse-y),
+      rgba(63, 81, 181, 0.18) 0%,
+      rgba(63, 81, 181, 0.08) 20%,
+      rgba(63, 808, 181, 0) 35%
+    );
+  }
 }
-
-.cursor-follower {
-  position: absolute;
-  border: 2px solid #ffffff;
-  border-radius: 100px;
-  transition-duration: 0.3s;
-  transition-timing-function: cubic-bezier(0.07, 1.18, 1, 1);
-  z-index: 30;
-}
-
 
 .animation-container {
   width: max-content;
