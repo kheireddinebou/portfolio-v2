@@ -1,8 +1,7 @@
-import Providers from "@/components/Providers";
-import { cn } from "@/lib/utils";
-import "../styles/globals.css";
 import CustomCursor from "@/components/CustomCursor";
 import Loader from "@/components/Loader";
+import { cn } from "@/lib/utils";
+import "../styles/globals.css";
 
 export const metadata = {
   title: "Kheireddine Boukhatem",
@@ -28,12 +27,10 @@ export default function RootLayout({
           "bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 overflow-x-hidden"
         )}
       >
-        <Providers>
-          <Loader>
-            <CustomCursor />
-            {children}
-          </Loader>
-        </Providers>
+        <Loader>
+          <CustomCursor />
+          {children}
+        </Loader>
       </body>
     </html>
   );

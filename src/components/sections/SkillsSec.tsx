@@ -1,14 +1,12 @@
 import { backEndSkills, frontEndSkills, otherSkills } from "@/data/skills";
 import { FiArrowUpRight } from "react-icons/fi";
-import IsInViewPort from "../ui/IsInViewPort";
 import SectionTitle from "../ui/SectionTitle";
 import SkillsCard from "../ui/SkillsCard";
 
 const SkillsSec = () => {
   return (
-    <IsInViewPort
+    <section
       className="flex flex-col gap-4 mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-      threshold={1}
       id="skills"
     >
       <SectionTitle>skills</SectionTitle>
@@ -41,7 +39,7 @@ const SkillsSec = () => {
           </span>{" "}
         </a>
       </div>
-    </IsInViewPort>
+    </section>
   );
 };
 

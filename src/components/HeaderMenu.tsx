@@ -1,40 +1,37 @@
 "use client";
 
+import useActiveSection from "@/hooks/useActiveSection";
 import { cn } from "@/lib/utils";
-import { InitialStateType } from "@/redux/activeSecSlice";
-import { useSelector } from "react-redux";
 
 const menuItems = [
   {
-    id: "1",
     name: "about",
+    threshold: 1,
   },
   {
-    id: "2",
     name: "skills",
+    threshold: 0.8,
   },
   {
-    id: "2",
     name: "experience",
+    threshold: 0.8,
   },
   {
-    id: "3",
     name: "projects",
+    threshold: 0.3,
   },
 ];
 
 const HeaderMenu = () => {
-  const activeSec = useSelector(
-    //@ts-ignore
-    (state: InitialStateType) => state.activeSec.activeSec
-  );
+  const { activeSection, setActiveSection } = useActiveSection(menuItems);
 
   return (
     <nav className="hidden lg:block">
       <ul className="lg:flex flex-col">
         {menuItems.map(item => (
-          <li key={item.id}>
+          <li key={item.name}>
             <a
+              onClick={() => setActiveSection(item.name)}
               className="flex group items-center w-fit gap-2 py-3"
               href={`#${item.name}`}
             >
@@ -42,8 +39,8 @@ const HeaderMenu = () => {
                 className={cn(
                   "mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none",
                   {
-                    "bg-slate-200": activeSec === item.name,
-                    "w-16": activeSec === item.name,
+                    "bg-slate-200": activeSection === item.name,
+                    "w-16": activeSection === item.name,
                   }
                 )}
               ></span>
@@ -51,7 +48,7 @@ const HeaderMenu = () => {
                 className={cn(
                   "text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200",
                   {
-                    "text-slate-200": activeSec === item.name,
+                    "text-slate-200": activeSection === item.name,
                   }
                 )}
               >
