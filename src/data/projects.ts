@@ -17,14 +17,14 @@ export const myProjects: Project[] = [
     demoLink: "https://my-car-kheireddinebou.vercel.app/",
   },
 
-  // {
-  //   title: "Creative Minds",
-  //   desc: "Responsive Social Media Website With Theme Customization, View and comment on posts, as well as add, edit, or remove your own posts.",
-  //   tools: ["Next.js", "Firebase", "Bootstrap"],
-  //   img: "/images/portfolio/creative-minds.jpg",
-  //   githubLink: "https://github.com/kheireddinebou/creative-minds",
-  //   demoLink: "https://creative-minds-khirou.vercel.app/",
-  // },
+  {
+    title: "Creative Minds",
+    desc: "Responsive Social Media Website With Theme Customization, View and comment on posts, as well as add, edit, or remove your own posts.",
+    tools: ["Next.js", "Firebase", "Bootstrap"],
+    img: "/images/portfolio/creative-minds.jpg",
+    githubLink: "https://github.com/kheireddinebou/creative-minds",
+    demoLink: "https://creative-minds-khirou.vercel.app/",
+  },
 
   {
     title: "talkilly",
