@@ -20,7 +20,7 @@ const AboutSec = () => {
         knowledge, consistently working to improve and share my skills.
       </Paragraph>
       <Paragraph>
-        When I'm not at the computer, you can usually find me reading books,
+        When I&apos;m not at the computer, you can usually find me reading books,
         spending time with friends, or possibly out for a run.
       </Paragraph>
     </section>
