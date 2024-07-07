@@ -1,6 +1,6 @@
 export const experiences: Experience[] = [
   {
-    role: "Front End Developer",
+    role: "Software Engineer",
     company: "Digital Home",
     startDate: "07/23",
     endDate: "present",
@@ -23,6 +23,7 @@ export const experiences: Experience[] = [
       "Material UI",
       "Chakra UI",
       "shadcn/ui",
+      "Agile Methodologies",
       "Figma",
     ],
     companyUrl: "https://www.digital-home.org/en",
