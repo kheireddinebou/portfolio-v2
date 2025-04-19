@@ -15,7 +15,7 @@ const LeftHeader = () => {
           <LargeHeading size="sm">Front End & Mobile Developer</LargeHeading>
           <Paragraph className="max-w-xs">
             I enjoy creating solid, inclusive products and digital experiences
-            for the mobile and web.
+            for the web and mobile.
           </Paragraph>
         </div>
 
