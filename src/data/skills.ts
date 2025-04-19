@@ -39,6 +39,12 @@ export const frontEndSkills: Skill[] = [
   },
 
   {
+    name: "Expo",
+    link: "https://expo.dev/",
+    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1744999415/Group_1_4_miohre.png",
+  },
+
+  {
     name: "Redux",
     link: "https://redux.js.org/",
     img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1684525464/pngegg_1_ruwseg.png",
@@ -50,14 +56,21 @@ export const frontEndSkills: Skill[] = [
   },
 
   {
+    name: "shadcn/ui",
+    link: "https://ui.shadcn.com/",
+    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1745000678/shadcn-ui_2_nadool.png",
+  },
+
+  {
+    name: "gluestack-ui",
+    link: "https://gluestack.io/",
+    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1745000115/gluestack.ui_ywa1xy.png",
+  },
+
+  {
     name: "Tailwind CSS",
     link: "https:/tailwindcss.com/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/v1653464819/kenjimmy.me/tailwindcss_xvxlaw.png",
-  },
-  {
-    name: "Bootstrap",
-    link: "https://getbootstrap.com/",
-    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1684525235/pngegg_bpmzjh.png",
   },
 ];
 
@@ -104,6 +117,11 @@ export const backEndSkills: Skill[] = [
 ];
 
 export const otherSkills: Skill[] = [
+  {
+    name: "webpack",
+    link: "https://webpack.js.org/",
+    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1745005866/icon_iochgx.png",
+  },
   {
     name: "npm",
     link: "https://www.npmjs.com/",

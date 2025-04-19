@@ -9,9 +9,10 @@ const AboutSec = () => {
     >
       <SectionTitle>about</SectionTitle>
       <Paragraph className="mb-4 lg:mt-1">
-        As a Front End Developer with real-world experience in crafting robust
-        web applications using React, JavaScript, and industry-leading tools, I
-        excel in enhancing user interaction through innovative features.
+        As a Front End & Mobile Developer with real-world experience in crafting
+        robust web and mobile applications using React, React Native,
+        JavaScript, and industry-leading tools, I excel in enhancing user
+        interaction through innovative features.
       </Paragraph>
       <Paragraph className="mb-4">
         My expertise lies in merging design with functionality to create
@@ -20,8 +21,8 @@ const AboutSec = () => {
         knowledge, consistently working to improve and share my skills.
       </Paragraph>
       <Paragraph>
-        When I&apos;m not at the computer, you can usually find me reading books,
-        spending time with friends, or possibly out for a run.
+        When I&apos;m not at the computer, you can usually find me reading
+        books, spending time with friends, or possibly out for a run.
       </Paragraph>
     </section>
   );

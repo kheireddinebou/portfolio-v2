@@ -1,8 +1,18 @@
 export const myProjects: Project[] = [
   {
+    title: "Digital Home",
+    desc: "A mobile app for mobile top-ups, e-commerce (internet cards/vouchers), sub-user management, and data-driven analytics with admin controls.",
+    tools: ["Expo", "TypeScript", "gluestack-ui", "NativeWind"],
+    img: "/images/portfolio/digital-home.png",
+    githubLink: "",
+    demoLink:
+      "https://play.google.com/store/apps/details?id=org.digitalhome.customersapp",
+  },
+
+  {
     title: "Text Similarity API (v1.0)",
     desc: "Free and open-source text similarity API that provides the similarity score between two texts, with rate limited API, protection of sensitive routes, google authentication and more.",
-    tools: ["TypeScript", "Next.js", "Tailwind CSS", "Prisma"],
+    tools: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma"],
     img: "/images/portfolio/text-similarity.jpg",
     githubLink: "https://github.com/kheireddinebou/text-similarity",
     demoLink: "https://text-similarity-v1.vercel.app/",

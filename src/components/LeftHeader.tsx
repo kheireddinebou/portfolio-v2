@@ -12,10 +12,10 @@ const LeftHeader = () => {
             <a href="#">Kheireddine Boukhatem</a>
           </LargeHeading>
 
-          <LargeHeading size="sm">Front End Developer</LargeHeading>
+          <LargeHeading size="sm">Front End & Mobile Developer</LargeHeading>
           <Paragraph className="max-w-xs">
             I enjoy creating solid, inclusive products and digital experiences
-            for the web.
+            for the mobile and web.
           </Paragraph>
         </div>
 

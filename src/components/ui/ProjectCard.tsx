@@ -35,14 +35,17 @@ const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
             </a>
           </h3>
           <p className="mt-2 text-sm leading-normal">{project.desc}</p>
-          <a
-            className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
-            href={project.githubLink}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsGithub className="mr-1 h-5 w-5" />
-          </a>
+          {project.githubLink && (
+            <a
+              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+              href={project.githubLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub className="mr-1 h-5 w-5" />
+            </a>
+          )}
+
           <ul className="mt-2 flex flex-wrap" aria-label="Technologies used:">
             {project.tools.map((tool, index) => (
               <Tool key={index}>{tool}</Tool>

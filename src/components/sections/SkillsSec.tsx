@@ -22,7 +22,7 @@ const SkillsSec = () => {
         <SkillsCard title="Others...and more!" skills={otherSkills} />
       </div>
 
-      <div className="mt-12">
+      {/* <div className="mt-12">
         <a
           className="inline items-center leading-tight font-semibold text-slate-200 group transition-colors hover:text-teal-300 focus-visible:text-teal-300"
           aria-label="View Full Résumé"
@@ -38,7 +38,7 @@ const SkillsSec = () => {
             />
           </span>{" "}
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
