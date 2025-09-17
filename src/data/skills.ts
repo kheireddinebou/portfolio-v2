@@ -88,6 +88,11 @@ export const backEndSkills: Skill[] = [
   },
 
   {
+    name: "Postgres",
+    link: "https://www.postgresql.org",
+    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1758137179/postgres.png",
+  },
+  {
     name: "Mongodb",
     link: "https://www.mongodb.com/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1653464817/kenjimmy.me/mongodb_xz90eg.png",
@@ -108,6 +113,11 @@ export const backEndSkills: Skill[] = [
     link: "https://jwt.io/",
     img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1684526896/pngwing.com_wyz7kr.png",
   },
+  {
+    name: "Redis",
+    link: "https://redis.io",
+    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1758137152/redis.png",
+  },
 
   {
     name: "Prisma",
@@ -126,6 +136,11 @@ export const otherSkills: Skill[] = [
     name: "npm",
     link: "https://www.npmjs.com/",
     img: "https://res.cloudinary.com/dwa1jtluu/image/upload/q_auto,f_auto/v1653464815/kenjimmy.me/npm_c4lqfw.png",
+  },
+  {
+    name: "pnpm",
+    link: "https://pnpm.io",
+    img: "https://res.cloudinary.com/dqkh79cry/image/upload/v1758142455/pnpm.png",
   },
   {
     name: "git",
