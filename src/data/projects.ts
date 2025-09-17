@@ -2,7 +2,15 @@ export const myProjects: Project[] = [
   {
     title: "Digital Home",
     desc: "A mobile app for mobile top-ups, e-commerce (internet cards/vouchers), sub-user management, and data-driven analytics with admin controls.",
-    tools: ["Expo", "TypeScript", "gluestack-ui", "NativeWind"],
+    tools: [
+      "Expo",
+      "TypeScript",
+      "gluestack-ui",
+      "NativeWind",
+      "TanStack Query",
+      "React Hook Form",
+      "Redux",
+    ],
     img: "/images/portfolio/digital-home.png",
     githubLink: "",
     demoLink:
@@ -10,9 +18,30 @@ export const myProjects: Project[] = [
   },
 
   {
+    title: "Linky - URL Shortener & Analytics Dashboard",
+    desc: "Transform lengthy URLs into powerful, trackable short links. Linky provides instant URL shortening, QR code generation, and an analytics dashboard to track clicks, and engagement metrics.",
+    tools: [
+      "Next.js 15",
+      "TypeScript",
+      "TanStack Query",
+      "React Hook Form",
+      "Zustand",
+      "shadcn/ui",
+      "Tailwind CSS",
+      "Express.js",
+      "Postgres",
+      "Prisma",
+      "Redis",
+    ],
+    img: "/images/portfolio/linky.png",
+    githubLink: "https://github.com/kheireddinebou/linky",
+    demoLink: "https://linkyyy.vercel.app",
+  },
+
+  {
     title: "Text Similarity API (v1.0)",
     desc: "Free and open-source text similarity API that provides the similarity score between two texts, with rate limited API, protection of sensitive routes, google authentication and more.",
-    tools: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma"],
+    tools: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "Redis"],
     img: "/images/portfolio/text-similarity.jpg",
     githubLink: "https://github.com/kheireddinebou/text-similarity",
     demoLink: "https://text-similarity-v1.vercel.app/",
